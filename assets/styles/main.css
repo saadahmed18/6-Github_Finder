@@ -13,3 +13,12 @@
   --border-color: #0000001a;
   --dark-mode-color: #000000d8;
 }
+.container {
+  padding: 0 15px;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
