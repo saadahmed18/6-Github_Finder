@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --white-color: white;
+  --black-color: black;
+  --dark-charcoal: #333333;
+  --Rajah-color: #ffb568;
+  --gray-color: #bdbaba;
+  --green-color: green;
+  --border-color: #0000001a;
+  --dark-mode-color: #000000d8;
+}
