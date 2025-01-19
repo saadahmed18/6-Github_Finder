@@ -35,6 +35,30 @@ body.dark-mode header .container a {
 body.dark-mode header .container img {
   background-color: var(--Rajah-color);
 }
+body.dark-mode section div button,
+body.dark-mode .some-user-data .user-info .info a,
+body.dark-mode .profile-info div p,
+body.dark-mode .some-user-data .repos ol li div a {
+  background-color: var(--Rajah-color);
+}
+body.dark-mode .some-user-data .user-info .info a,
+body.dark-mode .profile-info div p,
+body.dark-mode .some-user-data .repos ol li div a {
+  color: var(--black-color);
+}
+body.dark-mode .some-user-data .user-info .image p,
+body.dark-mode .some-user-data .user-info .info h3,
+body.dark-mode .some-user-data .repos ol li h3 {
+  color: var(--white-color);
+}
+body.dark-mode .profile-info,
+body.dark-mode .some-user-data .user-info,
+body.dark-mode .some-user-data .repos ol li {
+  border-color: var(--dark-charcoal);
+}
+img {
+  max-width: 100%;
+}
 header {
   position: sticky;
   top: 0;
@@ -57,4 +81,118 @@ header .container img {
   border-radius: 50%;
   cursor: pointer;
   background-color: #ccccc6c5;
+}
+section .container {
+  padding-top: 40px;
+}
+section div input {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin: auto;
+  border: none;
+  outline: none;
+  background-color: var(--gray-color);
+  border-radius: 4px;
+}
+section div input::placeholder {
+  color: var(--black-color);
+}
+section div button {
+  display: block;
+  width: 100px;
+  padding: 8px;
+  margin: 20px auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: var(--gray-color);
+}
+section .search p {
+  text-align: center;
+  color: var(--green-color);
+}
+section .search p.hidden {
+  display: none;
+}
+.some-user-data .user-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding: 15px 0;
+  margin-top: 15px;
+  border: 1px solid var(--border-color);
+}
+.some-user-data .user-info .image img {
+  display: block;
+  width: 150px;
+  margin: auto;
+  border-radius: 50%;
+}
+.some-user-data .user-info .image p {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #000000b4;
+}
+.some-user-data .user-info .info {
+  width: 45%;
+}
+.some-user-data .user-info .info h3 {
+  color: #000000b4;
+  line-height: 2;
+  margin: 10px 0;
+}
+.some-user-data .user-info .info p {
+  font-size: 15px;
+}
+.some-user-data .user-info .info a {
+  display: block;
+  width: fit-content;
+  text-decoration: none;
+  color: var(--white-color);
+  padding: 10px 25px;
+  background-color: #000000b4;
+  border-radius: 5px;
+}
+.some-user-data .profile-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 15px 0;
+  margin-top: 15px;
+  border: 1px solid var(--border-color);
+}
+.some-user-data .profile-info div p {
+  padding: 10px 25px;
+  color: var(--white-color);
+  background-color: #000000b4;
+  border-radius: 5px;
+}
+.some-user-data .repos ol li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 15px;
+  margin: 15px 0;
+  border: 1px solid var(--border-color);
+}
+.some-user-data .repos ol li div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.some-user-data .repos ol li div a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 25px;
+  color: var(--white-color);
+  background-color: #000000b4;
+  border-radius: 5px;
 }
