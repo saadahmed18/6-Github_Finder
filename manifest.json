@@ -5,6 +5,7 @@
   "background_color": "#ffffff",
   "display": "standalone",
   "orientation": "",
+  "id": "/Github_Finder",
   "scope": "/",
   "start_url": "https://github.com/saadahmed18/Github_Finder",
   "icons": [
